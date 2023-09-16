@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container2 {
+
+    box-sizing: border-box;
+    padding: 50px 280px;
+    background-color: rgb(199, 198, 198);
+
+}
+
+.container1 {
+    background-color: rgb(199, 198, 198);
+    position: sticky;
+    top: 0px;
+}
+
+.container1_box1 {
+    background-color: rgb(14, 122, 223);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100px;
+}
+
+.c1_b1_part1 {
+    width: 30%;
+    height: 100px;
+    margin-left: 50px;
+
+}
+
+a:hover {
+    color: rgb(197, 195, 195);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.c1_b1_part2 {
+    width: 70%;
+    height: 100px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+#p1 {
+    font-size: 40px;
+    color: white;
+    font-family: fantasy;
+    position: absolute;
+}
+
+#p2 {
+    margin: 0;
+    font-size: 40px;
+    font-family: fantasy;
+    margin-top: 0.8em;
+}
+
+.container2_box1 {
+    height: 350px;
+    overflow: hidden;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+.container2_box2 {
+    font-size: 20px;
+    height: max-content;
+    padding: 5px;
+    text-align: justify;
+    word-spacing: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    min-height: 0px;
+
+}
+
+.container3_box1 {
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: wheat;
+}
+
+svg {
+    height: 40px;
+    width: 40px;
+    color: black;
+
+
+}
+
+.container3_box2 {
+    min-height: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.container3_box2 table {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.container3_box2 td,
+th {
+    padding-right: 300px;
+    text-wrap: nowrap;
+    height: 4em;
+}
+
+.container3_box2 td {
+    color: rgb(204, 196, 196);
+
+}
+
+.container3_box2 td:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 25px;
+    font-size: 20px;
+}

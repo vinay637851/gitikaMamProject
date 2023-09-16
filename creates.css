@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.naam {
+    position: absolute;
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+}
+
+.image-container {
+    width: 100%;
+}
+
+
+
+img {
+    width: 100%;
+    height: 700px;
+}
